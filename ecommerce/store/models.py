@@ -26,7 +26,7 @@ class Product(models.Model):
             url = self.image.url
         except:
             url = ''
-        return self.foo
+        return url
 
 
 class Order(models.Model):
